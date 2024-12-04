@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://depositar.github.io/zh-tw/sitemap.xml
+Sitemap: https://depositar.github.io/sitemap.xml
