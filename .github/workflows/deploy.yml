@@ -8,6 +8,8 @@ on:
       - lab-depositar-io
     paths:
       - "assets/**"
+      - "_sass/**"
+      - "_scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -36,6 +38,8 @@ on:
       - lab-depositar-io
     paths:
       - "assets/**"
+      - "_sass/**"
+      - "_scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"

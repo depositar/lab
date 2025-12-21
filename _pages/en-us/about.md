@@ -7,9 +7,18 @@ profile:
   align: right
   image_circular: false # crops the image to make it circular
 
-news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+  limit: # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 The **depositar lab** researches and develops systems and tools for novel research data infrastructures and services. We operate the _[depositar](https://data.depositar.io/)_, a public repository for research data, and curate the _[Research Data Management Hub (RDM Hub)](https://rdm.depositar.io/)_ for researchers of all disciplines in Taiwan and worldwide. We also work with our partners on large-scale digital preservation and data collaboration projects. We use and make open source software. The services we provide are free to all to use.

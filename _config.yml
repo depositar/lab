@@ -54,6 +54,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
+posts_in_search: true
 bib_search: true
 
 # Dimensions
@@ -114,7 +115,8 @@ giscus:
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
+  dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
+  light_theme: light # name of the light color scheme (preferred works well with al-folio light mode)
   emit_metadata: 0
   lang: en
 
@@ -137,6 +139,8 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  books:
+    output: false
   news:
     defaults:
       layout: post
@@ -144,17 +148,6 @@ collections:
     permalink: /:collection/:title/
   projects:
     output: true
-    permalink: /:collection/:title/
-
-announcements:
-  enabled: true
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -174,7 +167,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -201,7 +194,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
+  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -214,6 +207,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
+  - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
@@ -235,24 +229,30 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js", "assets/libs/**/*"]
-  uglifier_args:
-    harmony: true
+  compress_javascript: false # set to false since we are using terser as the js minifier
+  exclude: ["robots.txt", "assets/js/search/*.js"]
+
+# -----------------------------------------------------------------------------
+# Terser
+# -----------------------------------------------------------------------------
+
+terser:
+  compress:
+    drop_console: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
+  posts:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    permalinks:
+      year: "/blog/:year/"
+      tags: "/blog/:type/:name/"
+      categories: "/blog/:type/:name/"
+  books:
+    enabled: [] # enables year, tag and category archives (remove if you need to disable one of them).
 
 #display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 #display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -556,6 +556,12 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
     version: "5.4.4"
+  plotly:
+    integrity:
+      js: "sha256-oy6Be7Eh6eiQFs5M7oXuPxxm9qbJXEtTpfSI93dW16Q="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/plotly.js@{{version}}/dist/plotly.min.js"
+    version: "3.0.1"
   polyfill:
     url:
       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
@@ -631,6 +637,7 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
+
 jsonresume:
   - basics
   - work

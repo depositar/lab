@@ -7,9 +7,18 @@ profile:
   align: right
   image_circular: false # crops the image to make it circular
 
-news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+  limit: # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 **研究資料寄存所實驗室**致力於研究資訊系統與工具，發展新興的研究資料基礎設施與服務。我們營運[研究資料寄存所](https://data.depositar.io/)（研究資料的開放儲存庫）以及[研究資料管理推進室 (RDM Hub)](https://rdm.depositar.io/) ，服務台灣和世界各地的研究人員，無論其學科領域。我們與夥伴們並進行大規模的數位保存與資料協作專案。我們使用並開發開放原始碼軟體。我們所提供的服務，所有人皆可自由使用。
