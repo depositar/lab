@@ -242,6 +242,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251205/";
+            },},{id: "news-report-on-the-20th-international-conference-on-open-repositories-or2025",
+          title: 'Report on the 20th International Conference on Open Repositories (OR2025)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/251226/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",
