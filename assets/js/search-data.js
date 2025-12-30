@@ -247,6 +247,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251226/";
+            },},{id: "news-2025-年國際資料週紀要",
+          title: '2025 年國際資料週紀要',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/251230/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",

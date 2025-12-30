@@ -247,6 +247,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251226/";
+            },},{id: "news-2025-年國際資料週紀要",
+          title: '2025 年國際資料週紀要',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/251230/";
             },},{id: "projects-318-公民運動文物紀錄典藏庫",
           title: '318 公民運動文物紀錄典藏庫',
           description: "",
