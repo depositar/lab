@@ -247,8 +247,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251226/";
-            },},{id: "news-2025-年國際資料週紀要",
-          title: '2025 年國際資料週紀要',
+            },},{id: "news-report-on-international-data-week-2025",
+          title: 'Report on International Data Week 2025',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251230/";
