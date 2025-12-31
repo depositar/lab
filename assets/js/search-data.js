@@ -253,7 +253,7 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/251230/";
             },},{id: "news-two-articles-published-at-the-science-and-technology-report",
-          title: 'Two articles published at the _Science and Technology Report_',
+          title: 'Two articles published at the Science and Technology Report',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251231/";
