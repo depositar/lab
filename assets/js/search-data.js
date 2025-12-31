@@ -252,8 +252,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251230/";
-            },},{id: "news-研究資料管理實務報導兩篇-新刊於-科技報導",
-          title: '研究資料管理實務報導兩篇，新刊於《科技報導》',
+            },},{id: "news-two-articles-published-at-the-science-and-technology-report",
+          title: 'Two articles published at the _Science and Technology Report_',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251231/";
