@@ -252,6 +252,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251230/";
+            },},{id: "news-研究資料管理實務報導兩篇-新刊於-科技報導",
+          title: '研究資料管理實務報導兩篇，新刊於《科技報導》',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/251231/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",
