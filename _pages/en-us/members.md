@@ -40,11 +40,12 @@ members:
 
 ## Research Students
 
+- Saskia Hähle, undergraduate student, National University of Kaohsiung
+- Si-Xian Li, undergraduate student, National Taiwan University 
 - LÎM Tîng-iông, Master student, National Dong Hwa University
 - Lan Thuong Nguyen, PhD student, National Chengchi University
 - Li Fang Wang, Master student, National Cheng Kung University
 - Hung-Yen Wu, undergraduate student, National Yang Ming Chiao Tung University
-- Wen-Ting Yang, PhD student, Maastricht University
 
 (The yearly summer interns not listed above)
 
@@ -72,3 +73,4 @@ members:
 Digital Affairs
 - Pao-Pei Huang, now in the Information and Library Science PhD program at
 the University of North Carolina at Chapel Hill
+- Wen-Ting Yang, now a PhD researcher at the Maastricht University (Faculty of Law)
