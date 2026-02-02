@@ -40,6 +40,7 @@ members:
 
 ## Research Students
 
+- Yu-Lin Chen, undergraduate student, National Sun Yat-sen University
 - Saskia Hähle, undergraduate student, National University of Kaohsiung
 - Si-Xian Li, undergraduate student, National Taiwan University 
 - LÎM Tîng-iông, Master student, National Dong Hwa University
