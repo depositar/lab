@@ -257,6 +257,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251231/";
+            },},{id: "news-year-2025-in-review",
+          title: 'Year 2025 in Review',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260206/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",

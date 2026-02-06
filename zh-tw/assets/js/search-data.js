@@ -257,6 +257,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251231/";
+            },},{id: "news-year-2025-in-review",
+          title: 'Year 2025 in Review',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260206/";
             },},{id: "projects-318-公民運動文物紀錄典藏庫",
           title: '318 公民運動文物紀錄典藏庫',
           description: "",
