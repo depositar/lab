@@ -262,6 +262,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260206/";
+            },},{id: "news-qgis-traditional-chinese-interface-translated-with-llm-assisted-workflows",
+          title: 'QGIS Traditional Chinese Interface Translated with LLM-assisted Workflows',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260210/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",

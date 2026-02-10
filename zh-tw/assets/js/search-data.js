@@ -262,6 +262,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260206/";
+            },},{id: "news-運用大型語言模型補綴-qgis-繁體中文介面-成果已於研究資料寄存所釋出",
+          title: '運用大型語言模型補綴 QGIS 繁體中文介面，成果已於研究資料寄存所釋出',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260210/";
             },},{id: "projects-318-公民運動文物紀錄典藏庫",
           title: '318 公民運動文物紀錄典藏庫',
           description: "",
