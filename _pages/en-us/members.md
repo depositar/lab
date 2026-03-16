@@ -21,11 +21,6 @@ members:
     twitter_username: u10313335
     website: https://about.me/SolLee
     description: Cheng-Jen works for the Institute of Information Science, Academia Sinica, Taiwan. He leads the technical development of the depositar (data.depositar.io). His recent research interests are data exchange standards, deployment automation and long-term maintenance of information systems. Utilizing the above technologies, he aims to achieve the sustainability of the depositar. He is also a senior Python language user.
-  - name: Hilary Szu Yin Shiue
-    img: Hilary.jpeg
-    position: Data Management Specialist
-    email: hshiue@iis.sinica.edu.tw
-    description: Hilary is currently employed at the Institute of Information Science, Academia Sinica, where she is involved in promoting Research Data Management (RDM) and assisting with the creation of Data Management Plans. Prior to joining the depositar team, she worked at various GLAM institutions in the United States, focusing on practicing good digital preservation and doing research related to the reuse of historical archival data.
   - name: Chia-Hsun Ally Wang
     img: ally.jpg
     position: Project Manager

@@ -21,11 +21,6 @@ members:
     twitter_username: u10313335
     website: https://about.me/SolLee
     description: 現任職於中央研究院資訊科學研究所。目前擔任「研究資料寄存所」(depositar / data.depositar.io) 的技術經理，負責該平台開發工作。近期研究主軸為資料流通標準、資訊系統自動化部署與長期維運，期許透過導入相關技術，以因應研究資料寄存所的持續發展需求。多年 Python 使用者。
-  - name: 薛絲尹
-    img: Hilary.jpeg
-    position: 資料管理專員
-    email: hshiue@iis.sinica.edu.tw
-    description: 目前他任職於中央研究院資訊科學研究所，負責推廣研究資料管理（RDM）並協助撰寫資料管理方案。在加入 depositar 團隊之前，他曾於美國的多個典藏機構工作，專注於數位保存及歷史檔案資料再利用相關的研究。
   - name: 王家薰
     img: ally.jpg
     position: 專案經理
