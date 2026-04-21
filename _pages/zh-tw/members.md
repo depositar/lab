@@ -7,6 +7,13 @@ nav: true
 nav_order: 2
 
 members:
+  - name: 張君實
+    img: chun-shih-chang.jpg
+    position: 助理工程師
+    email: chunshih.ch@iis.sinica.edu.tw
+    twitter_username: Thre3Month
+    website: https://github.com/ThreeMonth03
+    description: 張君實目前任職於中央研究院資訊科學研究所，有多年 Python 資料分析與 C++ 高效能計算經驗。近期專注於資料管理方案平台的在地化與部署，以協助研究資料的保存與再利用。
   - name: 莊庭瑞
     img: trc.jpg
     position: 實驗室主持人

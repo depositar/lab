@@ -7,6 +7,13 @@ nav: true
 nav_order: 2
 
 members:
+  - name: Chun-Shih Chang
+    img: chun-shih-chang.jpg
+    position: Assistant Engineer
+    email: chunshih.ch@iis.sinica.edu.tw
+    twitter_username: Thre3Month
+    website: https://github.com/ThreeMonth03
+    description: Chun-Shih Chang is currently affiliated with the Institute of Information Science at Academia Sinica. He has many years of experience in Python-based data analysis and high-performance computing with C++. His recent focus is on localizing and deploying research data management platforms to help improve the preservation and reuse of research data.
   - name: Tyng-Ruey Chuang
     img: trc.jpg
     position: Principal Investigator and Project lead
