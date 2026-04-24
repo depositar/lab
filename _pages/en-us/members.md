@@ -76,4 +76,5 @@ members:
 Digital Affairs
 - Pao-Pei Huang, now in the Information and Library Science PhD program at
 the University of North Carolina at Chapel Hill
+- Hilary Szu Yin Shiue, now at the Biodiversity Research Center, Academia Sinica
 - Wen-Ting Yang, now a PhD researcher at the Maastricht University (Faculty of Law)
