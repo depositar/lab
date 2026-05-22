@@ -267,6 +267,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260210/";
+            },},{id: "news-研究資料寄存所-g0v-summit-2026-歡迎來串門子聊聊哦",
+          title: '研究資料寄存所 @ g0v Summit 2026  歡迎來串門子聊聊哦！',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260522/";
             },},{id: "projects-318-公民運動文物紀錄典藏庫",
           title: '318 公民運動文物紀錄典藏庫',
           description: "",

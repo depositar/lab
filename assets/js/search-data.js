@@ -267,6 +267,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260210/";
+            },},{id: "news-depositar-lab-g0v-summit-2026-come-by-and-say-hi",
+          title: 'depositar lab @ g0v Summit 2026: Come by and say hi!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260522/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",
