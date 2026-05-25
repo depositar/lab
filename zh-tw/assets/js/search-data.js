@@ -272,6 +272,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260522/";
+            },},{id: "news-研究資料寄存所功能更新-data-package-支援上線",
+          title: '研究資料寄存所功能更新：Data Package 支援上線',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260525/";
             },},{id: "projects-318-公民運動文物紀錄典藏庫",
           title: '318 公民運動文物紀錄典藏庫',
           description: "",

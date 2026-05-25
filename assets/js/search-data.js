@@ -272,6 +272,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260522/";
+            },},{id: "news-depositar-update-data-package-support-is-available",
+          title: 'depositar Update: Data Package support is available',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260525/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",
