@@ -277,8 +277,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260525/";
-            },},{id: "news-2026-研究資料管理工作坊會議錄影與簡報已上線",
-          title: '2026 研究資料管理工作坊會議錄影與簡報已上線',
+            },},{id: "news-2026-研究資料管理工作坊-會議錄影與簡報已上線",
+          title: '「2026 研究資料管理工作坊」會議錄影與簡報已上線!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260528/";
