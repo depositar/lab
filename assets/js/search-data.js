@@ -277,6 +277,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260525/";
+            },},{id: "news-videos-and-slides-from-the-research-data-management-workshop-2026-are-now-available",
+          title: 'Videos and slides from the Research Data Management Workshop 2026 are now available!...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260528/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",
