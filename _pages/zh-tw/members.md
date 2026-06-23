@@ -34,6 +34,12 @@ members:
     email: allywang@iis.sinica.edu.tw
     website: https://orcid.org/0000-0002-4478-4666
     description: 王家薰目前任職於中央研究院資訊科學研究所，曾參與在中央研究院執行的自由軟體鑄造場及台灣創用 CC 計畫。具工程師的背景並熱愛開放自由的風氣，關注數位保存及研究資料管理相關資訊，致力於推廣研究資料管理的概念並向下扎根。
+  - name: 張維芹
+    img: weiqi.jpg
+    position: 研究助理
+    email: weiqi@citi.sinica.edu.tw
+    website: https://github.com/w3iqi
+    description: 現任職於中央研究院資訊科技創新研究中心。具歷史學背景，近來關注數位保存與研究資料管理（RDM）相關議題，包括網路典藏政策、網路檔案資料之開放取用與呈現，以及研究資料管理推廣等工作。
   - name: 張少娟
     img: winnie.jpg
     position: 行政管理
