@@ -14,6 +14,12 @@ members:
     twitter_username: Thre3Month
     website: https://github.com/ThreeMonth03
     description: 張君實目前任職於中央研究院資訊科學研究所，有多年 Python 資料分析與 C++ 高效能計算經驗。近期專注於資料管理方案平台的在地化與部署，以協助研究資料的保存與再利用。
+  - name: 張維芹
+    img: weiqi.jpg
+    position: 研究助理
+    email: weiqi@citi.sinica.edu.tw
+    website: https://github.com/w3iqi
+    description: 現任職於中央研究院資訊科技創新研究中心。具歷史學背景，近來關注數位保存與研究資料管理（RDM）相關議題，包括網路典藏政策、網路檔案資料之開放取用與呈現，以及研究資料管理推廣等工作。
   - name: 莊庭瑞
     img: trc.jpg
     position: 實驗室主持人
