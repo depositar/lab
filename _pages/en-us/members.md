@@ -14,6 +14,12 @@ members:
     twitter_username: Thre3Month
     website: https://github.com/ThreeMonth03
     description: Chun-Shih Chang is currently affiliated with the Institute of Information Science at Academia Sinica. He has many years of experience in Python-based data analysis and high-performance computing with C++. His recent focus is on localizing and deploying research data management platforms to help improve the preservation and reuse of research data.
+  - name: Wei-Qin weiqi Chang
+    img: weiqi.jpg
+    position: Research Assistant
+    email: weiqi@citi.sinica.edu.tw
+    website: https://github.com/w3iqi 
+    description: Wei-Qin currently works at the Research Center for Information Technology Innovation at the Academia Sinica. With a background in history, she has recently focused on issues related to digital preservation and research data management (RDM), including web archiving policies, open access to and presentation of web-based archival materials, and the promotion of research data management.
   - name: Tyng-Ruey Chuang
     img: trc.jpg
     position: Principal Investigator and Project lead
@@ -34,12 +40,6 @@ members:
     email: allywang@iis.sinica.edu.tw
     website: https://orcid.org/0000-0002-4478-4666
     description: Chia Hsun Wang is currently working at the Institute of Information Science, Academia Sinica. Previously she was with Open Source Software Foundry (OSSF) and Creative Commons Taiwan, two projects hosted at Academia Sinica. With an engineering background and a passion for promoting open and free culture, her focus revolves around the topics of digital preservation and research data management.
-  - name: Wei-Qin weiqi Chang
-    img: weiqi.jpg
-    position: Research Assistant
-    email: weiqi@citi.sinica.edu.tw
-    website: https://github.com/w3iqi 
-    description: Wei-Qin currently works at the Research Center for Information Technology Innovation at the Academia Sinica. With a background in history, she has recently focused on issues related to digital preservation and research data management (RDM), including web archiving policies, open access to and presentation of web-based archival materials, and the promotion of research data management.
   - name: Shao-Chuan Chang
     img: winnie.jpg
     position: Office Manager
