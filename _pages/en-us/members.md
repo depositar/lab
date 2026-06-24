@@ -39,7 +39,7 @@ members:
     position: Project Manager
     email: allywang@iis.sinica.edu.tw
     website: https://orcid.org/0000-0002-4478-4666
-    description: Chia Hsun Wang is currently working at the Institute of Information Science, Academia Sinica. Previously she was with Open Source Software Foundry (OSSF) and Creative Commons Taiwan, two projects hosted at Academia Sinica. With an engineering background and a passion for promoting open and free culture, her focus revolves around the topics of digital preservation and research data management.
+    description: Chia Hsun Wang (also romanized as Wong) is currently working at the Institute of Information Science, Academia Sinica. Previously she was with Open Source Software Foundry (OSSF) and Creative Commons Taiwan, two projects hosted at Academia Sinica. With an engineering background and a passion for promoting open and free culture, her focus revolves around the topics of digital preservation and research data management.
   - name: Shao-Chuan Chang
     img: winnie.jpg
     position: Office Manager
