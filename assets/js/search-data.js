@@ -282,6 +282,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260528/";
+            },},{id: "news-welcome-2026-summer-interns",
+          title: 'Welcome, 2026 Summer Interns!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260707/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",

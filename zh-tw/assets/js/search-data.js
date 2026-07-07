@@ -282,6 +282,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260528/";
+            },},{id: "news-welcome-2026-summer-interns",
+          title: 'Welcome, 2026 Summer Interns!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260707/";
             },},{id: "projects-318-公民運動文物紀錄典藏庫",
           title: '318 公民運動文物紀錄典藏庫',
           description: "",
