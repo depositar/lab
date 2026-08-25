@@ -287,8 +287,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260707/";
-            },},{id: "news-data-stewardship-wizard-for-depositar-測試版上線-歡迎試用",
-          title: 'Data Stewardship Wizard for depositar 測試版上線，歡迎試用!',
+            },},{id: "news-data-stewardship-wizard-for-depositar-dmp-線上工具-beta-測試版上線-歡迎試用",
+          title: 'Data Stewardship Wizard for depositar：DMP 線上工具 Beta 測試版上線，歡迎試用！',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260825/";

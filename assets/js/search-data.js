@@ -287,8 +287,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260707/";
-            },},{id: "news-depositar-lab-at-g0v-summit-2026-come-by-and-say-hi",
-          title: 'depositar lab (at) g0v Summit 2026: Come by and say hi!',
+            },},{id: "news-data-stewardship-wizard-for-depositar-dmp-online-tool-beta-now-available-try-it-out",
+          title: 'Data Stewardship Wizard for depositar: DMP Online Tool Beta Now Available — Try...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260825/";
