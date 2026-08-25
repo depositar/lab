@@ -272,6 +272,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260522/";
+            },},{id: "news-data-stewardship-wizard-for-depositar-測試版上線-歡迎試用",
+          title: 'Data Stewardship Wizard for depositar 測試版上線，歡迎試用!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260825/";
             },},{id: "news-研究資料寄存所功能更新-data-package-支援上線",
           title: '研究資料寄存所功能更新：Data Package 支援上線',
           description: "",
