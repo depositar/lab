@@ -272,11 +272,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260522/";
-            },},{id: "news-depositar-lab-at-g0v-summit-2026-come-by-and-say-hi",
-          title: 'depositar lab (at) g0v Summit 2026: Come by and say hi!',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/260825/";
             },},{id: "news-depositar-update-data-package-support-is-available",
           title: 'depositar Update: Data Package support is available',
           description: "",
@@ -292,6 +287,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260707/";
+            },},{id: "news-depositar-lab-at-g0v-summit-2026-come-by-and-say-hi",
+          title: 'depositar lab (at) g0v Summit 2026: Come by and say hi!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/260825/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",
