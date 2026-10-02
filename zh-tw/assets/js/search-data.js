@@ -292,6 +292,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260825/";
+            },},{id: "news-研究資料寄存所團隊參與-scipy-2026-國際會議",
+          title: '研究資料寄存所團隊參與 SciPy 2026 國際會議',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/261002/";
             },},{id: "projects-318-公民運動文物紀錄典藏庫",
           title: '318 公民運動文物紀錄典藏庫',
           description: "",

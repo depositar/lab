@@ -292,6 +292,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/260825/";
+            },},{id: "news-the-depositar-team-participated-in-the-scipy-2026",
+          title: 'The depositar team participated in the SciPy 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/261002/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",
