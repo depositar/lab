@@ -297,6 +297,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/261002/";
+            },},{id: "news-the-depositar-stats-page-update-dataset-views-page-is-available",
+          title: 'The depositar stats page update: dataset views page is available',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/261006/";
             },},{id: "projects-sunflower-movement-archive",
           title: 'Sunflower Movement Archive',
           description: "",

@@ -297,6 +297,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/261002/";
+            },},{id: "news-depositar-資料收錄統計網頁功能更新-新增資料集瀏覽次數統計",
+          title: 'depositar 資料收錄統計網頁功能更新：新增資料集瀏覽次數統計',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/261006/";
             },},{id: "projects-318-公民運動文物紀錄典藏庫",
           title: '318 公民運動文物紀錄典藏庫',
           description: "",
